@@ -20,7 +20,7 @@ An automated ETL pipeline that collects job market data, processes it, and store
 Extract → Transform → Load → Cloud Database
 
 ## 📷 Dashboard Preview
-![Dashboard](screenshot.png)
+![Dashboard](Screenshot.png)
 
 ## 📊 Insights
 - Top in-demand skills identified  
