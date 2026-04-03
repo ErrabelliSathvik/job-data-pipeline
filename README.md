@@ -1,48 +1,24 @@
-\# Job Market Data Pipeline
+# 🚀 Job Market Data Pipeline
 
+## 📌 Overview
+An automated ETL pipeline that collects job market data, processes it, and stores it in a cloud database for analysis.
 
+## ⚙️ Features
+- Automated data extraction from job API  
+- Data cleaning and normalization  
+- Cloud database integration (Supabase)  
+- Duplicate-safe data ingestion  
+- Modular pipeline architecture  
 
-\## Overview
+## 🛠 Tech Stack
+- Python  
+- Pandas  
+- REST API  
+- Supabase (PostgreSQL)
 
-Built an automated ETL pipeline to collect, process, and store job market data using Python and cloud database integration.
+## 🔄 Pipeline Flow
+Extract → Transform → Load → Cloud Database
 
-
-
-\## Features
-
-\- Extracts job data from public API
-
-\- Cleans and normalizes job information
-
-\- Stores data in Supabase (PostgreSQL)
-
-\- Handles duplicate records using unique constraints
-
-\- Fully automated pipeline execution
-
-
-
-\## Tech Stack
-
-\- Python
-
-\- Pandas
-
-\- REST APIs
-
-\- Supabase (PostgreSQL)
-
-
-
-\## Architecture
-
-Extract → Transform → Load → Cloud DB
-
-
-
-\## How to Run
-
+## ▶️ How to Run
 ```bash
-
-python -m pipeline.main\_pipeline
-
+python -m pipeline.main_pipeline
