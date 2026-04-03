@@ -1,4 +1,4 @@
-# 🚀 Job Market Data Pipeline
+# 🚀 Job Market Intelligence Pipeline with Analytics Dashboard
 
 ## 📌 Overview
 An automated ETL pipeline that collects job market data, processes it, and stores it in a cloud database for analysis.
@@ -18,6 +18,17 @@ An automated ETL pipeline that collects job market data, processes it, and store
 
 ## 🔄 Pipeline Flow
 Extract → Transform → Load → Cloud Database
+
+## 📷 Dashboard Preview
+![Dashboard](screenshot.png)
+
+## 📊 Insights
+- Top in-demand skills identified  
+- Most hiring companies analyzed  
+- Location-based job distribution  
+
+## 💡 Impact
+Transforms raw job data into actionable insights for skill demand analysis.
 
 ## ▶️ How to Run
 ```bash
